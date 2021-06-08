@@ -10,7 +10,7 @@ knex init
 comando 2:
 knex migrate:make create_table_products
 
-comando 4:
+comando 3:
 knex migrate:latest
 -npm run lt
 
