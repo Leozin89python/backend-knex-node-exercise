@@ -1,0 +1,22 @@
+install:
+npm i knex -g
+npm i knex --save
+		
+
+comando 1:
+knex init
+-npm run it
+
+comando 2:
+knex migrate:make create_table_products
+
+comando 4:
+knex migrate:latest
+-npm run lt
+
+comando extra:
+knex migrate:rollback (exclui as tabelas criadas)
+-npm run rlbk
+		
+		
+

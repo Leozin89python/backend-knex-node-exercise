@@ -1,0 +1,2 @@
+instale o knex global:
+npm i knex -g
