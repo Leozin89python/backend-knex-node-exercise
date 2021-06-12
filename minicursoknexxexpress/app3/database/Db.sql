@@ -1,14 +1,15 @@
-CREATE DATABASE store1;
-\c store1
+CREATE DATABASE store2;
+\c store2
 
-CREATE TABLE games1(
+CREATE TABLE games2(
     id SERIAL PRIMARY KEY NOT NULL,
     nome VARCHAR(120),
     preco DECIMAL(100,2)
 );
 
 \dt
-SELECT * FROM games1;
+
+SELECT * FROM games2;
 
 \l
 

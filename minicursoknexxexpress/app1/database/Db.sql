@@ -9,3 +9,5 @@ CREATE TABLE games(
 
 \dt 
 SELECT * FROM games;
+
+\q
